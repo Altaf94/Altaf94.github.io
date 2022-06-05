@@ -3,6 +3,7 @@ body{
     padding: 0%;
     font-family:'Jost', sans-serif;
     
+    
 }
 
 
@@ -90,6 +91,10 @@ margin-top: 15px;
 /* Section3 css end here */
 
 @media screen and (max-width: 480px) {
+
+    body{
+        max-width: 94%;
+    }
     
     .headertop{
         width: 106%;
@@ -107,6 +112,7 @@ margin-top: 15px;
 
    .custom4 img{
      max-width: 400px;
+     margin-left: 15px;
    }
 
    .custom5{
@@ -118,7 +124,7 @@ margin-top: 15px;
    }
 
    .custom5 h1{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
    }
 
@@ -142,7 +148,7 @@ margin-top: 15px;
     }
 
     .custom16{
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .new{
@@ -150,10 +156,15 @@ margin-top: 15px;
     }
 
     .custom7{
-        max-width: 400px;
+        max-width: 370px;
+        margin-left: 15px;
     }
 
-    .custom8{ margin-top: 50px;}
+    .custom8{ 
+        margin-top: 50px;
+        text-align: center;
+
+    }
 
     .navbar{
         background-color: black;
