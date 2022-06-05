@@ -134,7 +134,7 @@ margin-top: 15px;
         text-align: center;
     }
 
-    .custom6{
+    .custom16{
         margin-left: 25px;
     }
 
@@ -147,5 +147,10 @@ margin-top: 15px;
     }
 
     .custom8{ margin-top: 50px;}
+
+    .navbar{
+        background-color: black;
+        
+    }
 
 }
