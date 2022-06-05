@@ -1,45 +1,90 @@
-
-*{
-	margin: 0;
-	padding: 0;
-	
-}
-.navbar{
-
-border: none;
-background-color: cyan;
-color: #61122F;
-}
-
 body{
-	background-color: lemonchiffon;
-	color: black;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Jost', sans-serif;
+    
+}
+
+/* Section1 css start from here */
+
+.headertop{
+    background-image: url(https://images.pond5.com/abstract-background-black-cubes-dark-footage-082454157_iconl.jpeg);
+    height: 120vh;
+}
+
+.navbar-nav li{
+    padding: 15px;
+    color: white;
+    text-transform: uppercase
+}
+
+.navbar-nav a{
+    font-weight: bold;
+    color: white;
+}
+
+
+.navbar-nav .icon{
+    padding: 15px;
+}
+
+.custom1 h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    font: italic;
+    text-transform: uppercase;
+}
+
+.custom2 h1{
+    text-align: center;
+    font-size: 170px;
+    text-transform: uppercase;
+    margin-top: -50px;
     font-weight: bolder;
 }
-.glyphicon{
-	font-size: 30px;
-	color: black; 
+
+.custom3 img{
+ margin-top: -200px;
 }
 
-.center{
-	width: 90%;
-	background-color: lemonchiffon;
+/* Section1 css end here */
 
-}
-.container
-{
-	background-color: grey;
-}
-.text-center{
-	font-size: 30px;
+
+/* Section2 css start here */
+
+
+.custom4 img{
+    border-radius: 30px;
 }
 
-h2{
-	text-align: center;
+.custom5{
+    margin-top: 250px;
+    
 }
-#myNavbar ul li a {
-	color: lightblue;
+
+.custom5 button{
+    font-size: x-small;
 }
-.navbar-brand{
-font-size: 30px;	
+
+.custom5 h1{
+font-size: 70px;
+font-weight: bold;
+margin-top: 15px;
 }
+
+/* Section2 css end here */
+
+
+/* Section3 css start here */
+
+
+.custom6{ 
+ background-color: #edebe9;
+ text-align: center;
+ border-radius: 20%;
+    
+    
+}
+/* Section3 css end here */
+
