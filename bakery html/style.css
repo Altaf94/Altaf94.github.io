@@ -1,0 +1,164 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Jost', sans-serif;
+    
+}
+
+
+/* Section1 css start from here */
+
+.headertop{
+    background-image: url(https://images.pond5.com/abstract-background-black-cubes-dark-footage-082454157_iconl.jpeg);
+    height: 120vh;
+}
+
+.navbar-nav li{
+    padding: 15px;
+    color: white;
+    text-transform: uppercase
+}
+
+.navbar-nav a{
+    font-weight: bold;
+    color: white;
+}
+
+
+.navbar-nav .icon{
+    padding: 15px;
+}
+
+.custom1 h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    font: italic;
+    text-transform: uppercase;
+}
+
+.custom2 h1{
+    text-align: center;
+    font-size: 170px;
+    text-transform: uppercase;
+    margin-top: -50px;
+    font-weight: bolder;
+}
+
+.custom3 img{
+ margin-top: -200px;
+}
+
+/* Section1 css end here */
+
+
+/* Section2 css start here */
+
+
+.custom4 img{
+    border-radius: 30px;
+}
+
+.custom5{
+    margin-top: 250px;
+    
+}
+
+.custom5 button{
+    font-size: x-small;
+}
+
+.custom5 h1{
+font-size: 70px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+/* Section2 css end here */
+
+
+/* Section3 css start here */
+
+
+.custom6{ 
+ background-color: #edebe9;
+ text-align: center;
+ border-radius: 20%;
+    
+    
+}
+/* Section3 css end here */
+
+@media screen and (max-width: 480px) {
+    
+    .headertop{
+        width: 106%;
+        background-size: contain;
+    }
+    
+    .custom1 h1{
+        font-size: 25px;
+    }
+
+    .custom3 img{
+        margin-top: -80px;
+        width: 100%;
+    }
+
+   .custom4 img{
+     max-width: 400px;
+   }
+
+   .custom5{
+       margin-top: -25px;
+   }
+    
+   .custom5{
+       text-align: center;
+   }
+
+   .custom5 h1{
+    font-size: 50px;
+    text-align: center;
+   }
+
+   .custom5 p{
+       text-align: center;
+       font-size: 15px;
+   }
+
+   .custom6{
+       max-width: 250px;
+    
+   }
+
+    .custom2 h1{
+        font-size: 60px;
+        margin-top: -15px;  
+    }
+
+    .custom10 h1{
+        text-align: center;
+    }
+
+    .custom16{
+        margin-left: 25px;
+    }
+
+    .new{
+        margin-bottom: 15px;
+    }
+
+    .custom7{
+        max-width: 400px;
+    }
+
+    .custom8{ margin-top: 50px;}
+
+    .navbar{
+        background-color: black;
+        max-width: 100%;
+        
+    }
+
+}
