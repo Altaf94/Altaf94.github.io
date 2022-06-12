@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Section1 css */
+
+
+
+.navbar1 a{
+    color: white;
+    
+}
+
+.navbar1 li{
+   padding: 5px; 
+}
+
+.navbar1 form{
+    width: 650px;
+
+}
+
+/* Section1 css */
+
+
+/* Section2 */
+
+.navbar2 li{
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.navbar2 .Categories{
+    border-right: 1px solid gainsboro;
+}
+/* Section2 */
+
+
+
+/* Section3 */
+
+
+.photo a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Section3 */
+
+
+/* Section4 */
+
+.toolkit{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.picture1:hover .toolkit{
+    opacity: 1;
+    pointer-events: auto;
+    text-decoration: underline;
+}
+
+
+/* Section4 */
+
+/* Section5 */
+
+
+
+/* Section5 */
+
+
+
+/* Section7 */
+
+.section70{
+    height: auto;
+    position: relative;
+} 
+
+.section77{
+    position: absolute;
+    top: 10%;
+    left: 15px;
+} 
+/* Section7 */
+
+/* section14 */
+
+
+/* section14 */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px)  {
+     .flex{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        display: none;
+    }
+
+    .navbar1 i{
+        display: none;
+    }
+
+    .navbar1 .nav-item{
+        display: none;
+    }
+
+    .navbar2 button{
+        font-size: smaller;
+        
+    }
+
+    .navbar11{
+        font-size: smaller;
+        padding: 0%;
+        margin: 0%;
+    }
+
+}
